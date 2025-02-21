@@ -253,12 +253,13 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-purple-50 flex flex-col items-center justify-center p-8">
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl p-8">
-        <div className="flex items-center justify-center gap-2 mb-8">
-          <Brain className="w-8 h-8 text-blue-500" />
-          <h3 className="text-3xl font-bold text-blue-800"> Edit by Nagarjun </h3>
-          <hr>
-          <h1 className="text-3xl font-bold text-gray-800"> Math Puzzle </h1>
+        <div className="flex flex-col items-center gap-2 mb-8">
           
+          <h2 className="font-bold text-blue-400"> Edit by Nagarjun </h2>
+          <div className="flex item-center gap-2">
+          <Brain className="w-8 h-8 text-blue-500" />
+          <h1 className="text-3xl font-bold text-gray-800"> Math Puzzle </h1>
+          </div>
         </div>
 
         {gameStatus === 'idle' ? (
