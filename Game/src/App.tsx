@@ -256,7 +256,7 @@ function App() {
         <div className="flex items-center justify-center gap-2 mb-8">
           <Brain className="w-8 h-8 text-blue-500" />
           <br>
-          <h3 className="text-3xl text-blue-800"> Edit by Nagarjun </h3>
+          <h3 > Edit by Nagarjun </h3>
           </br>
           <h1 className="text-3xl font-bold text-gray-800"> Math Puzzle </h1>
           
