@@ -14,8 +14,8 @@ export const Cell: React.FC<CellProps> = ({ cell, onClick }) => {
         w-16 h-16 m-1 text-xl font-bold rounded-lg
         transition-all duration-200 transform hover:scale-105
         ${cell.selected 
-          ? 'bg-blue-500 text-white shadow-lg scale-105' 
-          : 'bg-white text-gray-800 shadow-md hover:shadow-lg'
+          ? 'bg-white-500 text-white shadow-lg scale-105' 
+          : 'bg-blue text-gray-800 shadow-md hover:shadow-lg'
         }
         disabled:opacity-50 disabled:cursor-not-allowed
       `}
